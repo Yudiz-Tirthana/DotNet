@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Access_Modifiers
 {
@@ -20,25 +20,8 @@ namespace Access_Modifiers
 
         // }
 
-        // Creating another class
 
-        class Car
-        {
-            private string model;
-            private string color;
-            private int price;
-
-
-            // Method
-            private void PrintCarInformation()
-            {
-                Console.WriteLine($"Model : {model}");
-                Console.WriteLine($"Color : {color}");
-                Console.WriteLine($"Price : {price}");
-                Console.ReadLine();
-            }
-
-            static void Main(string[] args)
+        static void Main(string[] args)
             {
 
                 // Creating an object of other class
@@ -53,6 +36,48 @@ namespace Access_Modifiers
                 myCar.PrintCarInformation();
 
             }
+
+
+
+
+        // Creating another class
+        // by class is internal(the code is only accessible within its own assembly(Classes are stored in namespaces ane namespaces are stored in assembly) but not from another assembly)
+
+        class Car
+        {
+            // private string model;
+            // private string color;
+            // private int price;
+            public string model;
+            public string color;
+            public int price;
+
+
+            // Method
+            public void PrintCarInformation()
+            {
+                Console.WriteLine($"Model : {model}");
+                Console.WriteLine($"Color : {color}");
+                Console.WriteLine($"Price : {price}");
+                Console.ReadLine();
+            }
+
+            //Code For private
+            // static void Main(string[] args)
+            // {
+
+            //     // Creating an object of other class
+            //     Car myCar = new Car();
+
+            //     // Putting the main method in the class car so that we can use the variables of the Car class
+            //     myCar.model = "Ferrar";
+            //     myCar.color = "Black";
+            //     myCar.price = 30000000;
+
+            //     // Calling the method
+            //     myCar.PrintCarInformation();
+
+            // }
         }
     }
 }
