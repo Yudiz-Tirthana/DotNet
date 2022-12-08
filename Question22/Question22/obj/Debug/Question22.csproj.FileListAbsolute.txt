@@ -1,0 +1,6 @@
+C:\Users\Tirthana Kansagara\Desktop\Company\.net\C#_Linq\Question22\Question22\bin\Debug\Question22.exe.config
+C:\Users\Tirthana Kansagara\Desktop\Company\.net\C#_Linq\Question22\Question22\bin\Debug\Question22.exe
+C:\Users\Tirthana Kansagara\Desktop\Company\.net\C#_Linq\Question22\Question22\bin\Debug\Question22.pdb
+C:\Users\Tirthana Kansagara\Desktop\Company\.net\C#_Linq\Question22\Question22\obj\Debug\Question22.csprojResolveAssemblyReference.cache
+C:\Users\Tirthana Kansagara\Desktop\Company\.net\C#_Linq\Question22\Question22\obj\Debug\Question22.exe
+C:\Users\Tirthana Kansagara\Desktop\Company\.net\C#_Linq\Question22\Question22\obj\Debug\Question22.pdb
